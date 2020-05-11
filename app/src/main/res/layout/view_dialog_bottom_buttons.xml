@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/offset_small"
+    android:layout_marginEnd="@dimen/offset_small"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/neutralBtn"
+        style="?attr/buttonBarNeutralButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/cancel" />
+
+    <Button
+        android:id="@+id/negativeBtn"
+        style="?attr/buttonBarNegativeButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/no" />
+
+    <Button
+        android:id="@+id/positiveBtn"
+        style="?attr/buttonBarPositiveButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ok" />
+</LinearLayout>

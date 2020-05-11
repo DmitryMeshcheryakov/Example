@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b2dfdb</color>
+    <color name="colorPrimaryDark">#80cbc4</color>
+    <color name="colorPrimaryDarkest">#4db6ac</color>
+    <color name="colorAccent">#9fa8da</color>
+
+    <color name="colorText">@color/color_text</color> <!--replace for dark theme-->
+    <color name="colorTextTitle">@color/color_text_title</color> <!--replace for dark theme-->
+    <color name="colorTextSubTitle">@color/color_text_subtitle</color> <!--replace for dark theme-->
+    <color name="colorTextSecondary">@color/color_text_secondary</color>
+
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorBackgroundVariant">#F7F7F7</color>
+    <color name="colorDivider">#e5e5e5</color> <!--replace for dark theme-->
+    <color name="colorDividerVariant">#E4E4E3</color> <!--replace for dark theme-->
+
+    <color name="colorTransparent">#00FFFFFF</color>
+
+    <color name="colorSuccess">#4CAF50</color>
+    <color name="colorError">#F44336</color>
+
+    <color name="colorPositive">#4CAF50</color>
+    <color name="colorNegative">#F44336</color>
+    <color name="colorNeutral">#FFC107</color>
+
+    <color name="colorFlagWhite">#ffffff</color>
+
+    <color name="colorRed">#f3082a</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorLightTransparent">#14ffffff</color>
+    <color name="colorWhiteTransparent">#aaffffff</color>
+    <color name="colorLightGrey">#f6f6f6</color>
+    <color name="colorGrey">#cacaca</color>
+    <color name="colorDarkGrey">#4f4f4f</color>
+
+    <color name="colorBgGradientFrom">#66bb6a</color>
+    <color name="colorBgGradientTo">#43a047</color>
+</resources>

@@ -1,0 +1,154 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="BaseAppTheme">
+    </style>
+
+    <style name="BaseAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/colorAccent</item>
+
+        <item name="android:colorEdgeEffect">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+
+        <item name="alertDialogCardStyle">@style/BaseAlertDialogCardStyle</item>
+        <item name="alertDialogBottomCardStyle">@style/BaseAlertDialogBottomCardStyle</item>
+        <item name="alertDialogTitleStyle">@style/BaseTitleTextStyle</item>
+        <item name="alertDialogDescriptionStyle">@style/BaseTextStyle</item>
+        <item name="alertDialogImageSize">@dimen/icon_size_medium</item>
+        <item name="bottomSheetDialogTheme">@style/BaseDialogBottomStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/BaseAlertButtonPositive</item>
+        <item name="buttonBarNegativeButtonStyle">@style/BaseAlertButtonNegative</item>
+        <item name="buttonBarNeutralButtonStyle">@style/BaseAlertButtonNegative</item>
+
+        <item name="android:titleTextStyle">@style/BaseTitleTextStyle</item>
+        <item name="android:subtitleTextStyle">@style/BaseSubTitleTextStyle</item>
+        <item name="android:buttonStyle">@style/BaseButtonStyle</item>
+        <item name="materialButtonStyle">@style/BaseButtonStyle</item>
+        <item name="android:textViewStyle">@style/BaseTextStyle</item>
+    </style>
+
+    <attr name="alertDialogCardStyle" format="reference" />
+    <attr name="alertDialogBottomCardStyle" format="reference" />
+    <attr name="alertDialogTitleStyle" format="reference" />
+    <attr name="alertDialogDescriptionStyle" format="reference" />
+    <attr name="alertDialogImageSize" format="dimension" />
+
+    <style name="BaseAlertDialogCardStyle" parent="CardView">
+        <item name="cardBackgroundColor">@color/colorBackground</item>
+        <item name="cardElevation">8dp</item>
+        <item name="cardCornerRadius">12dp</item>
+    </style>
+
+    <style name="BaseAlertDialogBottomCardStyle">
+        <item name="android:background">@drawable/bg_bottom_dialog</item>
+    </style>
+
+    <style name="BaseDialogBottomStyle" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="colorBackgroundFloating">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/colorTransparent</item>
+        <item name="android:navigationBarColor">@color/colorBackground</item>
+    </style>
+
+
+    <style name="BaseAlertButtonPositive" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="rippleColor">@color/colorAccent</item>
+        <item name="backgroundTint">@color/color_button</item>
+        <item name="android:textColor">@color/colorTextSecondary</item>
+        <item name="android:textSize">@dimen/font_size_default</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">@dimen/offset_small</item>
+    </style>
+
+    <style name="BaseAlertButtonNegative" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="rippleColor">@color/colorAccent</item>
+        <item name="android:strokeColor">@color/color_button_secondary</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/font_size_default</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_margin">@dimen/offset_small</item>
+    </style>
+
+    <style name="BaseAlertButtonNeutral" parent="BaseAlertButtonNegative">
+    </style>
+
+    <style name="BaseTitleTextStyle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/colorTextTitle</item>
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BaseSubTitleTextStyle" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">@color/colorTextSubTitle</item>
+        <item name="android:textSize">@dimen/font_size_medium</item>
+    </style>
+
+    <style name="BaseTextStyle" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/font_size_default</item>
+    </style>
+
+    <style name="BaseButtonStyle" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textColor">@color/colorTextSecondary</item>
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:capitalize">sentences</item>
+    </style>
+
+    <style name="BaseClusterTextAppearance" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">@dimen/font_size_little</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="EditTextLightStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColorHint">@color/colorGrey</item>
+        <item name="android:padding">@dimen/offset_small</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.WhiteTextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ToolbarTitleStyle">
+        <item name="android:textSize">@dimen/offset_medium</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="ButtonJoinStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+
+    <style name="DefaultBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/DefaultBottomSheetStyle</item>
+    </style>
+
+    <style name="DefaultBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>

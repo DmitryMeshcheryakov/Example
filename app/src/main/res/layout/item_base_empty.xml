@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageIv"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_margin="@dimen/vertical_offset_medium" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/offset_default"
+        android:paddingTop="@dimen/vertical_offset_little"
+        android:paddingEnd="@dimen/offset_default"
+        android:paddingBottom="@dimen/vertical_offset_little"
+        android:text="@string/empty"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/font_size_default" />
+
+    <TextView
+        android:id="@+id/descriptionTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/offset_default"
+        android:paddingTop="@dimen/vertical_offset_little"
+        android:paddingEnd="@dimen/offset_default"
+        android:paddingBottom="@dimen/vertical_offset_little"
+        android:text="@string/empty"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/font_size_default" />
+</LinearLayout>

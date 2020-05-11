@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="offset_micro">4dp</dimen>
+    <dimen name="offset_small">8dp</dimen>
+    <dimen name="offset_little">12dp</dimen>
+    <dimen name="offset_default">16dp</dimen>
+    <dimen name="offset_medium">24dp</dimen>
+    <dimen name="offset_large">32dp</dimen>
+
+    <dimen name="vertical_offset_micro">4dp</dimen>
+    <dimen name="vertical_offset_small">8dp</dimen>
+    <dimen name="vertical_offset_little">12dp</dimen>
+    <dimen name="vertical_offset_default">16dp</dimen>
+    <dimen name="vertical_offset_medium">24dp</dimen>
+    <dimen name="vertical_offset_large">32dp</dimen>
+
+    <dimen name="font_size_micro">8sp</dimen>
+    <dimen name="font_size_small">12sp</dimen>
+    <dimen name="font_size_default">14sp</dimen>
+    <dimen name="font_size_little">16sp</dimen>
+    <dimen name="font_size_medium">18sp</dimen>
+    <dimen name="font_size_large">24sp</dimen>
+
+    <dimen name="divider_height_large">1dp</dimen>
+    <dimen name="divider_height">0.5dp</dimen>
+
+    <dimen name="icon_size_micro">6dp</dimen>
+    <dimen name="icon_size_small">24dp</dimen>
+    <dimen name="icon_size_default">32dp</dimen>
+    <dimen name="icon_size_medium">56dp</dimen>
+    <dimen name="icon_size_large">90dp</dimen>
+
+    <dimen name="stroke_width">2dp</dimen>
+    <dimen name="toolbar_size">56dp</dimen>
+    <dimen name="animation_duration">300</dimen>
+
+    <dimen name="chevron_size">20dp</dimen>
+
+    <dimen name="circle_image_size_large">122dp</dimen>
+    <dimen name="circle_image_size">90dp</dimen>
+    <dimen name="circle_image_size_small">50dp</dimen>
+
+    <dimen name="mapBoundsPadding">30dp</dimen>
+
+    <dimen name="corner_radius_small">3dp</dimen>
+    <dimen name="corner_radius_medium">8dp</dimen>
+    <dimen name="corner_radius_large">25dp</dimen>
+    <dimen name="card_offset">-16dp</dimen>
+    <dimen name="card_corner_radius">16dp</dimen>
+</resources>
